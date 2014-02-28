@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href= "./mystyles.css">
+</head>
+<body>
+<h2>Interactive Multimedia</h2>
+<p> a </p>
+<a href= "index.html" title= "Log in!" Log In</a>
+</body>
+</html>
