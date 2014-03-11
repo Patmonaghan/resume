@@ -9,20 +9,23 @@ color:#00ffff;
 }
 h1{
  font-family: "Gill Sans MT", Arial, Helvetica, sans-serif;
- color:#000000;
+ color:#0000aa;
   width: 400px;
     margin: 0 auto 0 auto;
-
     padding: 0px;
- 
-}
-p1{
+ }
+p{
  font-family: Verdana, Sans-Serif;
- color:#aaaaaa;
+ color:#000000;
+    width:175px;
   margin:10px;
     padding: 10px;
     border:1px solid #000;
     text-align:left;
+}
+img{
+    style=width: 100px; height:150px;
+    text-align:right;
 }
 #wrapper {
     width: 400px;
