@@ -16,15 +16,21 @@ h1{
     padding: 0px;
  
 }
-p1{
+p{
  font-family: Verdana, Sans-Serif;
- color:#aaaaaa;
+ color:#000000;
+    width:175px;
   margin:10px;
     padding: 10px;
     border:1px solid #000;
     text-align:left;
+    float:left;
 }
-#wrapper {
+img{
+    style=width: 100px; height:150px;
+    text-align:right;
+    float: right;
+} {
     width: 400px;
     margin: 0 auto 0 auto;
     border: 1px solid #777;
