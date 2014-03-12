@@ -1,60 +1,84 @@
 /*this is my style sheet */
-* {
- color:#ff00aa; 
- font-family: Verdana, Sans-Serif;
+ * {
+    color:#000000;
+    font-family: Verdana, Sans-Serif;
 }
 #main {
-color:#00ffff;
-
+    color:#00ffff;
 }
-h1{
- font-family: "Gill Sans MT", Arial, Helvetica, sans-serif;
- color:#000000;
-  width: 400px;
+#border {
+    width:400px;
     margin: 0 auto 0 auto;
-
-    padding: 0px;
- 
-}
-p{
- font-family: Verdana, Sans-Serif;
- color:#000000;
-    width:175px;
-  margin:10px;
+    border: 1px solid #000;
     padding: 10px;
+}
+#wrapper {
+    width: 400px;
+    margin: 0 auto 0 auto;
+ 
+    padding: 10px;
+}
+h1 {
+    font-family:"Gill Sans MT", Arial, Helvetica, sans-serif;
+    color:#0000aa;
+    width: 400px;
+    margin: 0 auto 0 auto;
+    padding: 0px;
+}
+#Aboutme {
+    font-family: Verdana, Sans-Serif;
+    color:#000000;
+    width:175px;
+    margin:10px;
+    padding: 2px;
     border:1px solid #000;
     text-align:left;
     float:left;
 }
-img.pic{
-    style=width: 100px; height:150px;
-    text-align:right;
+#education {
+    font-family: Verdana, Sans-Serif;
+    color:#000000;
+    width:90px;
+    margin:5px;
+    padding: 2px;
+    position:fixed;
+    border:1px solid #000;
+    text-align:left;
+    float:left;
+}
+#work{
+       font-family: Verdana, Sans-Serif;
+    color:#000000;
+    width:90px;
+    margin:5px;
+    padding: 2px;
+    border:1px solid #000;
+    text-align:left;
+    float:right;
+}
+img {
+    style=width: 100px;
+    height:130px;
+    padding: 20px;
     float: right;
-} {
-    width: 400px;
-    margin: 0 auto 0 auto;
-    border: 1px solid #777;
-    padding: 10px;
 }
 header.page {
-    font-family: "Gill Sans MT", Arial, Helvetica, sans-serif;
- color:#000000;
+    font-family:"Gill Sans MT", Arial, Helvetica, sans-serif;
+    color:#000000;
     margin:10px;
     padding: 5px;
     border:1px solid #000;
     text-align:left;
 }
 header.page h1:hover {
-    color:#ffffff;
+    color:#bbbbbb;
 }
 nav {
     text-align:center;
 }
-
 nav, article, aside {
     float:left;
 }
-
 div li {
     display:inline;
     padding:0;
@@ -78,14 +102,12 @@ article {
     margin:5px;
 }
 header.article {
-   
 }
 aside li {
     list-style-type: square;
 }
-
 footer {
-        clear: left;
+    clear: left;
     text-align:center;
     margin:10 px;
     border: 1px solid #000;
@@ -96,10 +118,7 @@ nav li {
     margin:0;
     padding-right: 20px;
 }
-<body>
-<style>
-    body
-    {
-background-color:#ff0000;
+<body> <style> body {
+    background-color:#ff0000;
 }
 </style>
