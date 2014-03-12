@@ -22,10 +22,12 @@ p{
     padding: 10px;
     border:1px solid #000;
     text-align:left;
+    float:left;
 }
 img{
     style=width: 100px; height:150px;
     text-align:right;
+    float: right;
 }
 #wrapper {
     width: 400px;
