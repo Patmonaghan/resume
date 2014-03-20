@@ -1,168 +1,94 @@
-/*this is my style sheet */
- * {
-    color:#000000;
-    font-family: Verdana, Sans-Serif;
-}
-#main {
-    color:#00ffff;
-}
-#border {
-    width:400px;
-    margin: 0 auto 0 auto;
-    border: 1px solid #000;
-    padding: 10px;
-    position:fixed;
-}
 #wrapper {
-    width: 350px;
+    width:960px;
     margin: 0 auto 0 auto;
- 
-    padding: 10px;
-}
-h1 {
-    font-family:"Gill Sans MT", Arial, Helvetica, sans-serif;
-    color:#0000aa;
-    width: 400px;
-    margin: 0 auto 0 auto;
-    padding: 0px;
-}
-#Aboutme {
-    font-family: Verdana, Sans-Serif;
-    color:#000000;
-    width:175px;
-    margin:10px;
-    padding: 2px;
-    border:1px solid #000;
-    text-align:left;
-    float:left;
-}
-#education {
-    font-family: Verdana, Sans-Serif;
-    color:#000000;
-    width:90px;
-    margin:5px;
-    padding: 2px;
-    position:fixed;
-    border:1px solid #000;
-    text-align:left;
-    float:left;
-}
-#work{
-       font-family: Verdana, Sans-Serif;
-    color:#000000;
-    width:90px;
-    margin:5px;
-    padding: 2px;
-    border:1px solid #000;
-    text-align:left;
-    float:right;
-}
-img {
-    style=width: 10px;
-    height:10px;
-    padding: 20px;
-    float: right;
+    border: 1px solid #777;
 }
 header.page {
-    font-family:"Gill Sans MT", Arial, Helvetica, sans-serif;
-    color:#000000;
     margin:10px;
-    padding: 5px;
+    padding: 10px;
     border:1px solid #000;
-    text-align:left;
+    text-align:center;
 }
 header.page h1:hover {
-    color:#bbbbbb;
+    color:#444444;
 }
-nav {
-    text-align:center;
-}
-nav, article, aside {
+#aboutme, #work, #education  {
     float:left;
-}
-div li {
-    display:inline;
-    padding:0;
-    margin:0;
-    padding-right: 20px;
+    width: 250px;
 }
 a:link {
-    color:#b00;
+    color:#777;
 }
 a:hover {
-    color:#0b0;
+    color:#aaa;
 }
 a:visited {
-    color: #660000;
+    color:#660000;
+    text-decoration:none;
 }
 a:active {
-    color: #00c;
+    color:#999900;
 }
-article {
-    width:275px;
-    margin:5px;
-}
-header.article {
-}
-aside li {
-    list-style-type: square;
-}
-footer {
-    clear: left;
-    text-align:center;
-    margin:10 px;
+#aboutme {
+    width:400px;
+    margin:10px;
     border: 1px solid #000;
 }
-nav li {
-    display:inline;
-    padding:0;
-    margin:0;
-    padding-right: 20px;
+#education {
+    width:200px;
+    margin:10px;
+    border:1px solid #000;
 }
-<body> <style> body {
-    background-color:#ff0000;
+#work {
+    width:200px;
+    margin:10px;
+    border:1px solid #000;
 }
-
-@media screen and (max-width: 960px){
-    #border {
-        width:94%;
-    }
+footer {
+    clear:left;
+    border:1px solid #000;
+    margin:10px;
+    padding:10px;
+}
+@media screen and (max-width: 960px) {
     #wrapper {
-        width:94%;
+        width: 94%;
     }
-    #Aboutme {
-        width: 65%;
-    }
-    #work {
+    #aboutme {
         width: 65%;
     }
     #education {
         width: 28%;
     }
-}
-    @media screen and (max-width: 700px){
-   #Aboutme {
-        width: auto;
-    }
     #work {
+        width:28%;
+    }
+}
+/* for 700px or less */
+ @media screen and (max-width: 700px) {
+    #aboutme {
         width: auto;
+        float: none;
     }
     #education {
         width: auto;
-    }
-}
-    @media screen and (max-width: 480px){
-        #h1 {
-            font-size: 24px;
-        }
-    #Aboutme {
-        width: auto;
+        float: none;
     }
     #work {
         width: auto;
+        float: none;
     }
-    #education {
-        width: auto;
+}
+/* for 480px or less */
+ @media screen and (max-width: 480px) {
+    header.page {
+        height: auto;
     }
+    h1 {
+        font-size: 24px;
     }
+    #education #work {
+        display: none;
+    }
+}
 </style>
