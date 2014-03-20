@@ -58,8 +58,8 @@ h1 {
     float:right;
 }
 img {
-    style=width: 100px;
-    height:130px;
+    style=width: 10px;
+    height:15px;
     padding: 20px;
     float: right;
 }
@@ -121,5 +121,20 @@ nav li {
 }
 <body> <style> body {
     background-color:#ff0000;
+}
+@media screen and (max-width:960px) {
+    #wrapper {
+        width:94%;
+    }
+    article {
+        width: 65%;
+    }
+    article img {
+        width:30%;
+        height:30%;
+            }
+aside {
+    width:28%;
+}
 }
 </style>
