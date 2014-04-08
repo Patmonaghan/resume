@@ -21,6 +21,12 @@ header.page h1:hover {
     background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
+#contactform {
+    float:left;
+    width: 250px;
+    background: rgb(0,0,0);
+    color: rgb(255,255,255);
+}
 a:link {
     color:#777;
 }
