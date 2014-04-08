@@ -52,6 +52,16 @@ a:active {
     color:rgb(255, 255, 255);
     background: rgb(0,0,0);
 }
+#edu {
+   font-family: Verdana, Sans-Serif;
+    color:rgb(255,255,255);
+    width:90px;
+
+    position:fixed;
+
+    text-align:left;
+    float:left;
+}
 #work {
     width:200px;
     margin:10px;
