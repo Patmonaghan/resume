@@ -53,6 +53,16 @@ h1 {
     text-align:left;
     float:left;
 }
+#edu {
+   font-family: Verdana, Sans-Serif;
+    color:rgb(255,255,255);
+    width:90px;
+
+    position:fixed;
+
+    text-align:left;
+    float:left;
+}
 #work{
        font-family: Verdana, Sans-Serif;
     color:#000000;
