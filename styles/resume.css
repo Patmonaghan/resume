@@ -28,17 +28,17 @@ header.page h1:hover {
     color: rgb(255,255,255);
 }
 a:link {
-    color:#777;
+    color:rgb(100,100,100);
 }
 a:hover {
-    color:#aaa;
+    color:rgb(50,50,50);
 }
 a:visited {
-    color:#660000;
+    color:rgb(150,150,150);
     text-decoration:none;
 }
 a:active {
-    color:#999900;
+    color:rgb(200,200,200);
 }
 #aboutme {
     width:400px;
