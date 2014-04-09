@@ -44,7 +44,7 @@ nav {
 	display: inline-block;
 }
 #video {
-	padding: 5px, 5px, 5px, 5px;
+margin: 10px;
 	width: 480px;
 	height: 150px;
 	display: inline-block;
