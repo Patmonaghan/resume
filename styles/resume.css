@@ -310,7 +310,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
         height:200px;
         display: inline-block;
     }
-    .ul slides {
+    .slides {
     	display: 70%;
     }
 }
@@ -340,7 +340,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
     	width: auto;
     	float: none;
     }
-    .ul slides {
+    .slides {
     	display:none;
     }
 }
