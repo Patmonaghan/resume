@@ -178,7 +178,7 @@ footer {
     h1 {
         font-size: 24px;
     }
-        #aboutme, #education, #work, #edu, #work2, #processing{
+        #aboutme, #education, #work, #edu, #work2{
         width: auto;
         float: none;
     }
@@ -188,6 +188,9 @@ footer {
         float:center;
 	display: inline;
     }
-
+    #processing{
+	width: 400px;
+	float:center;
+    }
 }
 </style>
