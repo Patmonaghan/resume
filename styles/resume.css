@@ -336,5 +336,8 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 	width: 400px;
 	float:center;
     }
+    .ul slides {
+    	display:none;
+    }
 }
 </style>
