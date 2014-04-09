@@ -18,6 +18,9 @@ header.page {
 header.page h1:hover {
     color:#444444;
 }
+nav {
+    font-size: 22px;
+}
 #aboutme, #work, #education, #work2, #edu {
     float:left;
     width: 480px;
