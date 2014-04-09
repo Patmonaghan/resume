@@ -147,6 +147,7 @@ footer {
 
 html, body { background: #333 url("http://bustagetroupe.files.wordpress.com/2012/04/black-background.jpg"); }
 
+	
 .slides {
     padding: 0;
     width: 600px;
@@ -155,7 +156,7 @@ html, body { background: #333 url("http://bustagetroupe.files.wordpress.com/2012
     margin: 0 auto;
     position: relative;
 }
-
+#slider{
 .slides * {
     user-select: none;
     -ms-user-select: none;
@@ -257,7 +258,7 @@ input#img-5:checked ~ .nav-dots label#img-dot-5,
 input#img-6:checked ~ .nav-dots label#img-dot-6 {
 	background: rgba(0, 0, 0, 0.8);
 }
-	
+}
 
 @media screen and (max-width: 960px) {
     #wrapper {
