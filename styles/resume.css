@@ -367,8 +367,8 @@ input:checked + .slide-container .nav label { display: block; }
 
 .nav-dots {
 	width: 100%;
-	bottom: 9px;
-	height: 11px;
+	bottom: 65%;
+	height: 65%;
 	display: block;
 	position: absolute;
 	text-align: center;
@@ -376,8 +376,8 @@ input:checked + .slide-container .nav label { display: block; }
 
 .nav-dots .nav-dot {
 	top: -5px;
-	width: 11px;
-	height: 11px;
+	width: 65%;
+	height: 65%;
 	margin: 0 4px;
 	position: relative;
 	border-radius: 100%;
