@@ -19,7 +19,7 @@ header.page {
 header.page h1:hover {
     color:#444444;
 }
-#aboutme, #work, #education, #work2 {
+#aboutme, #work, #education, #work2, #edu {
     float:left;
     width: 480px;
     background: rgb(255, 255, 255);
@@ -49,7 +49,7 @@ a:active {
     margin:10px;
     border: 1px solid #000;
 }
-#education {
+#education, #edu {
     width:400px;
     margin:10px;
     border:1px solid #000;
