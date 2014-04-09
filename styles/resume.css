@@ -98,7 +98,7 @@ footer {
         background: rgb(0,0,0);
         color:rgb(255,255,255);
     }
-    #work, #work2 {
+    #work, #work2, #pics{
         width:94%;
     }
 }
@@ -108,7 +108,7 @@ footer {
         width: auto;
         float: none;
     }
-    #education, #edu {
+    #education, #edu, #pics{
         width: auto;
         float: none;
     }
@@ -125,7 +125,7 @@ footer {
     h1 {
         font-size: 24px;
     }
-        #aboutme, #education, #work, #edu, #work2, {
+        #aboutme, #education, #work, #edu, #work2, #pics{
         width: auto;
         float: none;
     }
