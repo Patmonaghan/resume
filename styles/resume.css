@@ -23,6 +23,8 @@
 {
 	width:480px;
 	height: 600px;
+	float:left;
+	position:float;
 }
 h1 {
     font-family:"Gill Sans MT", Arial, Helvetica, sans-serif;
