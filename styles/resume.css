@@ -128,22 +128,26 @@ footer {
         width: 100%;
     }
     #aboutme {
-        width: 94%;
+        width: 70%;
     }
     #education, #edu {
-        width: 94%;
+        width: 70%;
         background: rgb(0,0,0);
         color:rgb(255,255,255);
     }
     #work, #work2, #pics, #content{
-        width:94%;
+        width:70%;
     }
     #pics
 {
-	width:100%;
+	
 	height: 600px;
 		display: inline-block;
 	
+}
+#processing
+{
+	width:70%;
 }
 }
 /* for 700px or less */
@@ -156,7 +160,7 @@ footer {
         width: auto;
         float: none;
     }
-    #work, #work2{
+    #work, #work2, #processing{
         width: auto;
         float: none;
     }
@@ -174,7 +178,7 @@ footer {
     h1 {
         font-size: 24px;
     }
-        #aboutme, #education, #work, #edu, #work2{
+        #aboutme, #education, #work, #edu, #work2, #processing{
         width: auto;
         float: none;
     }
