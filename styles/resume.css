@@ -283,7 +283,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 	height: 480px;
 	display: inline-block;
 }
-#processing
+#processing, #content
 {
 	width:70%;
 }
@@ -299,7 +299,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
         width: auto;
         float: none;
     }
-    #work, #work2, #processing{
+    #work, #work2, #processing, #content{
         width: auto;
         float: none;
     }
@@ -330,7 +330,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
         float:center;
 	display: inline;
     }
-    #processing{
+    #processing, #content{
 	display:none;
     }
     #video {
