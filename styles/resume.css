@@ -188,5 +188,8 @@ nav li {
         width:auto;
         height:100px;
     }
+    #content {
+        display:none;
+    }
     }
 </style>
