@@ -22,7 +22,7 @@ nav {
     font-size: 28px;
 }
 #contactform, form-group {
-    font-size:22px;
+    font-size:30px;
 }
 #aboutme, #work, #education, #work2, #edu {
     float:left;
@@ -32,8 +32,8 @@ nav {
     font-size:26px;
 }
 #contactform {
-    float:left;
-    width: 250px;
+    float:inline;
+    width: 800px;
     background: rgb(0,0,0);
     color: rgb(255,255,255);
 }
@@ -41,7 +41,7 @@ nav {
 {
 	width:480px;
 	height: 600px;
-	float:left;
+	float:inline;
 	position:float;
 }
 a:link {
