@@ -20,6 +20,11 @@
  
     padding: 10px;
 }
+#pics
+{
+	width:480px;
+	height: 600px;
+}
 h1 {
     font-family:"Gill Sans MT", Arial, Helvetica, sans-serif;
     color:#0000aa;
@@ -178,7 +183,7 @@ nav li {
     #wrapper {
         width:94%;
     }
-    #Aboutme {
+    #Aboutme, #pics, #content {
         width: 65%;
     }
     #work {
