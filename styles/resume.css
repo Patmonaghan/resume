@@ -59,19 +59,22 @@ a:active {
 #edu {
    font-family: Verdana, Sans-Serif;
     color:white;
-    width:800px;
+    width:auto;
 background: rgb(0,0,0);
   
    
 }
-#work {
+#work, #work2 {
     width:400px;
     margin:10px;
     border:1px solid #000;
 }
 #work2
 {
+font-family: Verdana, Sans-Serif;
     color:white;
+    width:800px;
+background: rgb(0,0,0);
     width:auto;
 }
 footer {
