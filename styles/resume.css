@@ -61,9 +61,8 @@ a:active {
     color:rgb(255,255,255);
     width:800px;
 background: rgb(0,0,0);
-    position:fixed;
-    text-align:left;
-    float:left;
+  
+   
 }
 #work {
     width:400px;
