@@ -44,11 +44,10 @@ nav {
 	display: inline-block;
 }
 #video {
-margin: 10px;
+
 	width: 480px;
 	height: 150px;
-	float: left;
-	display: inline-block;
+
 }
 a:link {
     color:rgb(100,100,100);
