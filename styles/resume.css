@@ -105,7 +105,7 @@ footer {
     margin:10px;
     padding:10px;
 }
-#video, #processing, #slider {
+#video, #processing, .ul slides {
 	display: inline-block;
 }
 #processing
@@ -147,6 +147,7 @@ footer {
 
 html, body { background: #333 url("http://bustagetroupe.files.wordpress.com/2012/04/black-background.jpg"); }
 
+.ul slides {
 	
 .slides {
     padding: 0;
