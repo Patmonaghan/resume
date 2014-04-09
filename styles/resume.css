@@ -1,6 +1,6 @@
 #main {
-    color:#00ffff;
-    background:#000000;
+    color:rgb(255,255,255);
+    background:#rgb(0,0,0);
 }
 #wrapper {
     width:auto;
