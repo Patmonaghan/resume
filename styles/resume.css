@@ -24,7 +24,7 @@ nav {
 #contactform, form-group {
     font-size:30px;
 }
-#aboutme, #work, #education, #work2, #edu {
+#aboutme, #work, #education, #work2, #edu, #video {
     float:left;
     width: 480px;
     background: rgb(255, 255, 255);
@@ -127,7 +127,7 @@ footer {
     #wrapper {
         width: 100%;
     }
-    #aboutme {
+    #aboutme, #video {
         width: 70%;
     }
     #education, #edu {
@@ -140,10 +140,8 @@ footer {
     }
     #pics
 {
-	
 	height: 600px;
-		display: inline-block;
-	
+	display: inline-block;
 }
 #processing
 {
@@ -156,7 +154,7 @@ footer {
         width: auto;
         float: none;
     }
-    #education, #edu, #pics{
+    #education, #edu, #pics, #video{
         width: auto;
         float: none;
     }
@@ -178,7 +176,7 @@ footer {
     h1 {
         font-size: 24px;
     }
-        #aboutme, #education, #work, #edu, #work2{
+        #aboutme, #education, #work, #edu, #work2, #video{
         width: auto;
         float: none;
     }
