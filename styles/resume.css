@@ -105,7 +105,7 @@ footer {
     margin:10px;
     padding:10px;
 }
-#video, #processing {
+#video, #processing, #slider {
 	display: inline-block;
 }
 #processing
@@ -141,6 +141,8 @@ footer {
 #col-md-12 {
 	display:inline-block;
 }
+#slider{
+
 @import url(http://fonts.googleapis.com/css?family=Varela+Round);
 
 html, body { background: #333 url("http://bustagetroupe.files.wordpress.com/2012/04/black-background.jpg"); }
@@ -255,7 +257,8 @@ input#img-5:checked ~ .nav-dots label#img-dot-5,
 input#img-6:checked ~ .nav-dots label#img-dot-6 {
 	background: rgba(0, 0, 0, 0.8);
 }
-
+	
+}
 @media screen and (max-width: 960px) {
     #wrapper {
         width: 100%;
