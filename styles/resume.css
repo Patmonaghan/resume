@@ -24,7 +24,7 @@ nav {
 #contactform, form-group {
     font-size:30px;
 }
-#aboutme, #work, #education, #work2, #edu, #video {
+#aboutme, #work, #education, #work2, #edu, {
     float:left;
     width: 480px;
     background: rgb(255, 255, 255);
@@ -47,6 +47,7 @@ nav {
 margin: 10px;
 	width: 480px;
 	height: 150px;
+	float: left;
 	display: inline-block;
 }
 a:link {
