@@ -87,7 +87,7 @@ footer {
     #aboutme {
         width: 94%;
     }
-    #education {
+    #education, #edu {
         width: 94%;
     }
     #work, #work2 {
@@ -100,7 +100,7 @@ footer {
         width: auto;
         float: none;
     }
-    #education {
+    #education, #edu {
         width: auto;
         float: none;
     }
@@ -117,7 +117,7 @@ footer {
     h1 {
         font-size: 24px;
     }
-        #aboutme {
+        #aboutme, #edu {
         width: auto;
         float: none;
     }
