@@ -21,6 +21,9 @@ header.page h1:hover {
 nav {
     font-size: 28px;
 }
+#contactform {
+    font-size:22px;
+}
 #aboutme, #work, #education, #work2, #edu {
     float:left;
     width: 480px;
