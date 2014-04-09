@@ -43,12 +43,7 @@ nav {
 	height: 600px;
 	display: inline-block;
 }
-#video {
 
-	width: 480px;
-	height: 150px;
-
-}
 a:link {
     color:rgb(100,100,100);
 }
@@ -127,6 +122,12 @@ footer {
 		border-left: 1px solid #444; border-top: 1px solid #444; 
 		border-right: 1px solid #333; border-bottom: 1px solid #333;
 		background-color: #3d3d3d;
+}
+#video {
+
+	width: 480px;
+	height: 150px;
+
 }
 @media screen and (max-width: 960px) {
     #wrapper {
