@@ -322,7 +322,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
     }
         #aboutme, #education, #work, #edu, #work2, #video{
         width: auto;
-        height:150px;
+        height:250px;
         float: none;
     }
     #pics {
