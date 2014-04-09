@@ -37,6 +37,11 @@ nav {
     background: rgb(0,0,0);
     color: rgb(255,255,255);
 }
+#pics
+{
+	width:480px;
+	height: 600px;
+}
 a:link {
     color:rgb(100,100,100);
 }
@@ -86,6 +91,38 @@ footer {
     margin:10px;
     padding:10px;
 }
+#processing
+{
+{
+	  background-color: #333; color: #bbb; line-height: normal;
+	  font-family: Lucida Grande, Lucida Sans, Arial, Helvetica Neue, Verdana, Geneva, sans-serif;
+	  font-size: 11px; font-weight: normal; text-decoration: none;
+		  line-height: 1.5em;
+	}
+	a img { 
+		border: 0px solid transparent;
+	}
+	a, a:link, a:visited, a:active, a:hover { 
+		color: #cdcdcd; text-decoration: underline;
+	}
+	h1 {
+	    font-family: Arial, Helvetica Neue, Verdana, Geneva, sans-serif;
+		width: 100%; letter-spacing: 0.1em;
+		margin-bottom: 1em; font-size: 1.65em;
+	}
+	canvas { 
+		display: block; 
+		outline: 0px; 
+		margin-bottom: 1.5em; 
+	}
+	#content { 
+		margin: 50px auto 0px auto; padding: 25px 25px 15px 25px;
+		width: 500px; min-width: 300px; overflow: auto;
+		border-left: 1px solid #444; border-top: 1px solid #444; 
+		border-right: 1px solid #333; border-bottom: 1px solid #333;
+		background-color: #3d3d3d;
+	}
+}
 @media screen and (max-width: 960px) {
     #wrapper {
         width: 100%;
@@ -98,7 +135,7 @@ footer {
         background: rgb(0,0,0);
         color:rgb(255,255,255);
     }
-    #work, #work2, #pics{
+    #work, #work2, #pics, #content{
         width:94%;
     }
 }
@@ -116,6 +153,10 @@ footer {
         width: auto;
         float: none;
     }
+     #pics {
+        width:auto;
+        height:200px;
+    }
 }
 /* for 480px or less */
  @media screen and (max-width: 480px) {
@@ -125,9 +166,14 @@ footer {
     h1 {
         font-size: 24px;
     }
-        #aboutme, #education, #work, #edu, #work2, #pics{
+        #aboutme, #education, #work, #edu, #work2{
         width: auto;
         float: none;
+    }
+    #pics {
+        width:auto;
+        height:100px;
+        float:none;
     }
 
 }
