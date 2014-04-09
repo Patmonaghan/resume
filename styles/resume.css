@@ -176,7 +176,7 @@ html, body { background: #333 url("http://bustagetroupe.files.wordpress.com/2012
     width: 609px;
     height: 420px;
     display: block;
-    position: right;
+    position: relative;
 
     transform: scale(0);
 
