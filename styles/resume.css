@@ -174,8 +174,8 @@ html, body { background: #333 url("http://bustagetroupe.files.wordpress.com/2012
 .slide {
     top: 0;
     opacity: 0;
-    width: 609px;
-    height: 420px;
+    width: 500px;
+    height: 400px;
     display: block;
     position: absolute;
 
