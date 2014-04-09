@@ -151,7 +151,8 @@ footer {
     }
     #pics
 {
-	height: 600px;
+
+	height: 70%;
 	display: inline-block;
 }
 #processing
