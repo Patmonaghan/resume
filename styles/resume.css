@@ -310,6 +310,9 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
         height:200px;
         display: inline-block;
     }
+    .ul slides {
+    	display: 70%;
+    }
 }
 /* for 480px or less */
  @media screen and (max-width: 480px) {
