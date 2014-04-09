@@ -19,7 +19,7 @@ header.page {
 header.page h1:hover {
     color:#444444;
 }
-#aboutme, #work, #education {
+#aboutme, #work, #education, #work2 {
     float:left;
     width: 480px;
     background: rgb(255, 255, 255);
