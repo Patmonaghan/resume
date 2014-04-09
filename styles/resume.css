@@ -94,10 +94,8 @@ font-family: Verdana, Sans-Serif;
     width:auto;
 }
 #video {
-
 	width: 600px;
 	height: 480px;
-
 }
 footer {
     clear:left;
@@ -341,7 +339,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
     	float: none;
     }
     .slides {
-    	display:none;
-    }
+    	width:400px;
+    	    }
 }
 </style>
