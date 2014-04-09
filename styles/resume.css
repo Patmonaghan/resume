@@ -38,13 +38,12 @@ nav {
     background: rgb(0,0,0);
     color: rgb(255,255,255);
 }
-#pics
-{
-	width:100%;
-	height: 600px;
-	display: inline-block;
-}
 
+#shark, #steve, #fifa {
+	display: inline;
+	height: 600px;
+	width: 480px;
+}
 a:link {
     color:rgb(100,100,100);
 }
