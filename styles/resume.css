@@ -25,7 +25,7 @@ nav {
     font-size:30px;
 }
 #aboutme, #work, #education, #work2, #edu, #video{
-    float:inline;
+    float:inline-block;
     width: 480px;
     height: 500px;
     background: rgb(255, 255, 255);
