@@ -1,4 +1,4 @@
-
+body {background-image:url(http://sciencelakes.com/data_images/out/10/8800642-black-background-4547.jpg);}
 #wrapper {
     width:auto;
     margin: 0 auto 0 auto;
@@ -58,9 +58,7 @@ a:active {
     color:white;
     width:auto;
 background: rgb(0,0,0);
-  
-   
-}
+  }
 #work, #work2 {
     width:400px;
     margin:10px;
