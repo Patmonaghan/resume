@@ -105,7 +105,7 @@ footer {
     margin:10px;
     padding:10px;
 }
-#video, #processing, .ul slides {
+#video, #processing{
 	display: inline-block;
 }
 #processing
