@@ -335,7 +335,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 	display:none;
     }
     #video {
-    	width: 200px;
+    	width: 300px;
     	float: none;
     }
     .slides {
