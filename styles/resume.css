@@ -24,7 +24,7 @@ nav {
 #contactform, form-group {
     font-size:30px;
 }
-#aboutme, #work, #education, #work2, #edu, {
+#aboutme, #work, #education, #work2, #edu {
     float:left;
     width: 480px;
     height: 500px;
@@ -90,8 +90,8 @@ font-family: Verdana, Sans-Serif;
 }
 #video {
 
-	width: 480px;
-	height: 300px;
+	width: 600px;
+	height: 480px;
 
 }
 footer {
