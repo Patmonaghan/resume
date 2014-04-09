@@ -1,5 +1,5 @@
 #wrapper {
-    width:10000px;
+    width:960px;
     margin: 0 auto 0 auto;
     border: 1px solid #777;
     background: rgb(0, 0, 0);
@@ -46,7 +46,7 @@ a:active {
     border: 1px solid #000;
 }
 #education {
-    width:200px;
+    width:400px;
     margin:10px;
     border:1px solid #000;
     color:rgb(255, 255, 255);
