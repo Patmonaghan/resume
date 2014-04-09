@@ -331,8 +331,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 	display: inline;
     }
     #processing{
-	width: 400px;
-	float:center;
+	display:none;
     }
     #video {
     	width: 200px;
