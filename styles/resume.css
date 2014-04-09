@@ -24,7 +24,7 @@ nav {
 #contactform, form-group {
     font-size:30px;
 }
-#aboutme, #work, #education, #work2, #edu, #video{
+#aboutme, #work, #education, #work2, #edu, {
     float:left;
     width: 480px;
     height: 500px;
