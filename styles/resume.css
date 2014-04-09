@@ -258,7 +258,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 	background: rgba(0, 0, 0, 0.8);
 }
 	
-}
+
 @media screen and (max-width: 960px) {
     #wrapper {
         width: 100%;
