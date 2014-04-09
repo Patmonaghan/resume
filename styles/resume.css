@@ -142,8 +142,7 @@ footer {
 	display:inline-block;
 }
 
-#slider 
-{
+
 @import url(http://fonts.googleapis.com/css?family=Varela+Round);
 
 html, body { background: #333 url("http://bustagetroupe.files.wordpress.com/2012/04/black-background.jpg"); }
@@ -153,7 +152,7 @@ html, body { background: #333 url("http://bustagetroupe.files.wordpress.com/2012
     padding: 0;
     width: 600px;
     height: 500px;
-    display: block;
+    display: inline-block;
     margin: 0 auto;
     position: relative;
 }
