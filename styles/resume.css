@@ -166,6 +166,10 @@ nav li {
     #education {
         width: auto;
     }
+    #pics {
+        width:auto;
+        height:200px;
+    }
 }
     @media screen and (max-width: 480px){
         #h1 {
@@ -179,6 +183,10 @@ nav li {
     }
     #education {
         width: auto;
+    }
+    #pics {
+        width:auto;
+        height:100px;
     }
     }
 </style>
