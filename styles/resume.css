@@ -82,16 +82,16 @@ footer {
 }
 @media screen and (max-width: 960px) {
     #wrapper {
-        width: 94%;
+        width: 100%;
     }
     #aboutme {
-        width: 65%;
+        width: 100%;
     }
     #education {
-        width: 28%;
+        width: 100%;
     }
     #work {
-        width:28%;
+        width:100%;
     }
 }
 /* for 700px or less */
