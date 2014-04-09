@@ -44,6 +44,9 @@ nav {
 	height: 480px;
 	width: 300px;
 }
+#fifa { 
+	width: 200px;
+	}
 a:link {
     color:rgb(100,100,100);
 }
