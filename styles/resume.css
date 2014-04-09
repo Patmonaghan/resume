@@ -117,6 +117,11 @@ footer {
     h1 {
         font-size: 24px;
     }
+        #aboutme {
+        width: auto;
+        float: none;
+    }
+    
     #education #work {
         display: none;
     }
