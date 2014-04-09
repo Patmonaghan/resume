@@ -124,10 +124,10 @@ footer {
 		background-color: #3d3d3d;
 }
 #video {
-
+margin:10px;
 	width: 480px;
 	height: 150px;
-float:left;
+
 }
 @media screen and (max-width: 960px) {
     #wrapper {
