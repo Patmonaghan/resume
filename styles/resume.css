@@ -336,6 +336,10 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 	width: 400px;
 	float:center;
     }
+    #video {
+    	width: auto;
+    	float: none;
+    }
     .ul slides {
     	display:none;
     }
