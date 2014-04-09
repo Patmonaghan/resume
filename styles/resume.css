@@ -1,5 +1,5 @@
 #wrapper {
-    width:auto;
+    width:1000px;
     margin: 0 auto 0 auto;
     border: 1px solid #777;
     background: rgb(0, 0, 0);
@@ -55,14 +55,14 @@ a:active {
 #edu {
    font-family: Verdana, Sans-Serif;
     color:rgb(255,255,255);
-    width:400px;
+    width:800px;
 background: rgb(0,0,0);
     position:fixed;
     text-align:left;
     float:left;
 }
 #work {
-    width:200px;
+    width:400px;
     margin:10px;
     border:1px solid #000;
 }
