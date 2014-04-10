@@ -150,7 +150,7 @@ html, body { background: #333 url("http://bustagetroupe.files.wordpress.com/2012
 .slides {
     padding: 0;
     width: 609px;
-    height: 420px;
+    height: 500px;
     display: block;
     margin: 0 auto;
     position: relative;
@@ -173,7 +173,7 @@ html, body { background: #333 url("http://bustagetroupe.files.wordpress.com/2012
     top: 0;
     opacity: 0;
     width: 609px;
-    height: 420px;
+    height: 500px;
     display: block;
     position: absolute;
 
