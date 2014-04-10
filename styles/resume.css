@@ -27,7 +27,7 @@ nav {
 #aboutme, #work, #education, #work2, #edu {
     float:left;
     width: 380px;
-    height: 500px;
+    height: 300px;
     background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     font-size:26px;
@@ -42,14 +42,6 @@ nav {
 	width:auto;
 	height:500px;
 }
-#shark, #steve, #fifa {
-	display: inline;
-	height: 480px;
-	width: 300px;
-}
-#fifa { 
-	width: 200px;
-	}
 a:link {
     color:rgb(100,100,100);
 }
@@ -64,12 +56,12 @@ a:active {
     color:rgb(200,200,200);
 }
 #aboutme {
-    width:400px;
+    width:300px;
     margin:10px;
     border: 1px solid #000;
 }
 #education, #edu {
-    width:400px;
+    width:300px;
     margin:10px;
     border:1px solid #000;
 
@@ -81,7 +73,7 @@ a:active {
 background: rgb(0,0,0);
   }
 #work, #work2 {
-    width:400px;
+    width:300px;
     margin:10px;
     border:1px solid #000;
 }
