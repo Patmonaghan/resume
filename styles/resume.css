@@ -92,6 +92,8 @@ font-family: Verdana, Sans-Serif;
 #video {
 	width: 600px;
 	height: 480px;
+	padding: 10px, 100px, 10px, 100px;
+	
 }
 footer {
     clear:left;
