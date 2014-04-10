@@ -340,11 +340,11 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
     }
     .slides {
     	width:auto;
-    	height:600px;
+    	height:550px;
     }
     .slide {
     	width:auto;
-    	height:600px;
+    	height:550px;
     }
     .nav label {
     	width:auto;
