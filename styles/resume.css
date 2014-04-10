@@ -27,7 +27,7 @@ nav {
 #aboutme, #work, #education, #work2, #edu {
     float:left;
     width: 480px;
-    height: 500px;
+    height: 300px;
     background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     font-size:26px;
