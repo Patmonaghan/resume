@@ -339,14 +339,17 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
     	float: none;
     }
     .slides {
+    	padding:2px;
     	width:auto;
     	height:550px;
     }
     .slide {
+    	padding:2px;
     	width:auto;
     	height:550px;
     }
     .nav label {
+    	padding:2px;
     	width:auto;
     }
     
