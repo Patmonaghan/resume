@@ -335,11 +335,21 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 	display:none;
     }
     #video {
-    	width: 300px;
+    	width: auto;
     	float: none;
     }
     .slides {
-    	width:400px;
-    	    }
+    	width:auto;
+    }
+    .slides {
+    	width:auto;
+    }
+    .slide {
+    	width:auto;
+    }
+    .nav label {
+    	width:auto;
+    }
+    
 }
 </style>
