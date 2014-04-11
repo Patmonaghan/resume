@@ -319,7 +319,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
         font-size: 24px;
     }
     #wrapper {
-    	width:auto;
+    	width:400px;
     }
         #aboutme, #work, #work2{
         width: auto;
