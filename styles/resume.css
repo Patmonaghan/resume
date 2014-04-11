@@ -90,9 +90,7 @@ font-family: Verdana, Sans-Serif;
     width:auto;
 }
 #video {
-
-
-	float:center;
+	float:left;
 }
 footer {
     clear:left;
