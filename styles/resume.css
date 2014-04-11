@@ -93,7 +93,7 @@ font-family: Verdana, Sans-Serif;
 	width: 600px;
 	height: 480px;
 	padding: 10px;
-	
+	float:center;
 }
 footer {
     clear:left;
