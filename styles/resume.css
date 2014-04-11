@@ -316,16 +316,15 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
         font-size: 24px;
     }
         #aboutme, #education, #work, #edu, #work2{
-        width: auto;
+        width: 400px;
         height:250px;
         background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-        float: center;
+        float: left;
     }
     #education, #edu
     {
     	width:auto;
-    	
     	background:rgb(0,0,0);
     	color:rgb(255,255,255);
     	float:center;
