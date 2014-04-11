@@ -1,5 +1,8 @@
 body {background-image:url(http://bustagetroupe.files.wordpress.com/2012/04/black-background.jpg);}
 
+#main {
+	color:black;
+}
 #wrapper {
     width:auto;
     margin: 0 auto 0 auto;
