@@ -91,7 +91,7 @@ font-family: Verdana, Sans-Serif;
 }
 #video {
 
-	padding: 0px;
+	padding: 15px;
 	float:center;
 }
 footer {
@@ -341,6 +341,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
     #video {
     	width: auto;
     	float: none;
+    	padding: none;
     }
     .slides {
     	padding:2px;
