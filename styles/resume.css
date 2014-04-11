@@ -315,8 +315,8 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
     h1 {
         font-size: 24px;
     }
-        #aboutme, #education, #work, #edu, #work2{
-        width: auto;
+        #aboutme, #work, #work2{
+        width: 300px;
         background: rgb(255, 255, 255);
     	color: rgb(0, 0, 0);
         float: center;
