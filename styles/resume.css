@@ -318,6 +318,9 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
     h1 {
         font-size: 24px;
     }
+    #wrapper {
+    	width:auto;
+    }
         #aboutme, #work, #work2{
         width: auto;
         background: rgb(255, 255, 255);
