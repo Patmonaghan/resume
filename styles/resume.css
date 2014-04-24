@@ -94,6 +94,7 @@ font-family: Verdana, Sans-Serif;
 }
 #videoframe{
 	float:left;
+	width: 700px;
 }
 footer {
     clear:left;
