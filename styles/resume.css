@@ -41,7 +41,7 @@ nav {
     background: rgb(0,0,0);
     color: rgb(255,255,255);
 }
-#video, #aboutme, #work, #education, #work2, #edu{
+#videoframe, #aboutme, #work, #education, #work2, #edu{
 	float:left;
 	display:inline;
 }
@@ -92,7 +92,7 @@ font-family: Verdana, Sans-Serif;
     background: rgb(0,0,0);
     width:auto;
 }
-#video {
+#videoframe{
 	float:left;
 }
 footer {
@@ -101,7 +101,7 @@ footer {
     margin:10px;
     padding:10px;
 }
-#video, #processing, .slides, .slide, .nav label{
+#videoframe, #processing, .slides, .slide, .nav label{
 	display: inline-block;
 }
 #processing
@@ -260,7 +260,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
     #wrapper {
         width: 100%;
     }
-    #aboutme, #video {
+    #aboutme, #videoframe {
         width: 70%;
     }
     #education, #edu {
@@ -293,7 +293,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
         width: auto;
         float: none;
     }
-    #education, #edu, #pics, #video{
+    #education, #edu, #pics, #videoframe{
         width: auto;
         float: none;
     }
@@ -343,7 +343,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
     #processing, #content{
 	display:none;
     }
-    #video {
+    #videoframe {
     	width: auto;
     	float: none;
     	padding: none;
