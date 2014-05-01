@@ -346,6 +346,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 	display:none;
     }
     #videoframe {
+    	padding:2px;
     	width: 300px;
     	height:150px;
     	float: none;
