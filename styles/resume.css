@@ -41,7 +41,7 @@ nav {
     background: rgb(0,0,0);
     color: rgb(255,255,255);
 }
-#videoframe, #aboutme, #work, #education, #work2, #edu{
+#videoframe, #aboutme, #work, #education, #work2, #edu, .slides, .slide, .nav label{
 	float:left;
 	display:inline;
 }
