@@ -13,16 +13,6 @@ float xPosition = 25;
 float yPosition = 25;
 float xpos, ypos;  
 
-//sound
-import ddf.minim.*;
-Minim minim;
-AudioSample collision;
-AudioSample blue;
-AudioSample gameover;
-AudioSample restart;
-AudioSample warning;
-
-
 void setup()
 {
   size(500, 500);
@@ -32,13 +22,6 @@ void setup()
   }
   {
     img = loadImage("pinhole.jpg");
-  }
-  {
-    minim = new Minim(this);
-    collision = minim.loadSample("smb_coin.wav", 512);
-    blue = minim.loadSample("smb_stage_clear.wav", 512);
-    restart = minim.loadSample("smb_warning.wav", 512);
-    warning = minim.loadSample("smb_breakblock.wav", 512);
   }
 }
 
@@ -142,7 +125,6 @@ void draw()
         line(399, 450, 399, 500);
 
         {
-
           textFont(f, 24);
           stroke(1);
           fill(0);
@@ -153,7 +135,6 @@ void draw()
           noStroke();
           rect(0, 0, 0, 50);
           {
-
             fill(255, 255, 0);
             noStroke();
             rect(402, 402, 499, 499);
@@ -173,8 +154,7 @@ void draw()
             won = true; 
             {
               background(255);
-              blue.trigger();
-              {
+             {
                 noStroke();
                 fill(255);
                 frameRate(30);
@@ -190,14 +170,6 @@ void draw()
             }
           }
         }
-          if ((xPosition > 150) && (yPosition < 50))
-          {
-            warning.trigger();
-          }
-        if ((xPosition < 50) && (yPosition > 50))
-          {
-            warning.trigger();
-          }
       }
       // Draw a circle
       noStroke();
@@ -224,12 +196,10 @@ void keyPressed()
       println(c);
       if (c == - 16119286)
       {
-        collision.trigger();
         yPosition = yPosition + numPixels;
       }
       if ((c == 723723) || (c == 1644825))
       {
-        collision.trigger();
         yPosition = yPosition + numPixels;
       }
     }
@@ -242,12 +212,10 @@ void keyPressed()
       println(c);
       if (c == - 16119286)
       {
-        collision.trigger();
         yPosition = yPosition - numPixels;
       }
       if ((c == 723723) || (c == 1644825))
       {
-        collision.trigger();
         yPosition = yPosition - numPixels;
       }
     }
@@ -260,12 +228,10 @@ void keyPressed()
       println(c);
       if (c == - 16119286)
       {
-        collision.trigger();
         xPosition = xPosition - numPixels;
       }
       if ((c == 723723) || (c == 1644825))
       {
-        collision.trigger();
         xPosition = xPosition - numPixels;
       }
     }
@@ -278,12 +244,10 @@ void keyPressed()
       println(c);
       if (c == - 16119286)
       {
-        collision.trigger();
         xPosition = xPosition + numPixels;
       }
       if ((c == 723723) || (c == 1644825))
       {
-        collision.trigger();
         xPosition = xPosition + numPixels;
       }
       if (c == - 256)
@@ -294,8 +258,10 @@ void keyPressed()
   {
     if (key == ' ')
     {
-      restart.trigger();
       xPosition = 25;
       yPosition = 25;
       image(img, xPosition - 950, yPosition - 950);
     }
+  }
+}
+
