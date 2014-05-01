@@ -95,6 +95,7 @@ font-family: Verdana, Sans-Serif;
 #videoframe{
 	float:left;
 	width: 700px;
+	height:480px;
 }
 footer {
     clear:left;
@@ -345,7 +346,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 	display:none;
     }
     #videoframe {
-    	width: auto;
+    	width: 400;
     	float: none;
     	padding: none;
     }
